@@ -10,9 +10,9 @@
 
 ### Repository structure
 - Directory `solvers/` contains the implementation of the mentioned solvers
-    1. `solvers/simplex_solver.py` contains the actual implementation of the `SimplexSolver` class
-    2. `solvers/interior_point_solver.py` contains the actual implementation of the `InteriorPointSolver` class
-    3. `solvers/brute_solver.py` contains the actual implementation of the `BruteSolver` class
+    1. Implementation of  `SimplexSolver` class  can be found in  `solvers/simplex_solver.py`
+    2. Implementation of  `InteriorPointSolver` class can be found in `solvers/interior_point_solver.py` 
+    3. Implementation of `BruteSolver` class can be found in `solvers/brute_solver.py`
 - `utils.py` contains definition of the following useful helper functions:
     1.  `network_flow_to_std_LP()` that converts a given max-flow problem instance to its corresponding LP
     2. `primal_to_dual()` that converts a given primal LP in standard form to its corresponding dual in standard form
